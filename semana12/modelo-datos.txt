@@ -1,0 +1,17 @@
+Entidad: Causa
+Atributos:
+- id (Clave primaria, identificador único)
+- titulo (Texto que resume la causa)
+- descripcion (Texto detallado con la problemática)
+- fecha (Fecha de creación de la petición)
+
+Explicación: Esta entidad sirve para almacenar y estructurar toda la información de las iniciativas ciudadanas que se proponen dentro de la plataforma.
+
+Entidad: Apoyo
+Atributos:
+- id (Clave primaria, identificador único)
+- causa_id (Clave foránea que conecta este apoyo con una causa específica)
+- nombre_iniciales (Nombre o iniciales del ciudadano, minimizando datos personales)
+- fecha (Fecha y hora en la que se registró el apoyo)
+
+Explicación: Esta entidad sirve para llevar la cuenta exacta de cuántas personas respaldan una iniciativa específica sin almacenar datos sensibles que puedan vulnerar la privacidad del usuario.

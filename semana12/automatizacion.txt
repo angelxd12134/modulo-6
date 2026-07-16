@@ -1,0 +1,7 @@
+Flujo de Automatización con Telegram
+
+Evento disparador (Trigger): Nueva causa registrada en la base de datos de la plataforma.
+
+Mensaje enviado automáticamente: "¡Nueva causa comunitaria creada en la plataforma! 'Petición en 3 Clics' sigue sumando voces. Entra a la web para conocer la propuesta y registrar tu apoyo."
+
+Información omitida por seguridad: No se enviarán nombres completos de creadores, correos electrónicos, números telefónicos, direcciones físicas exactas, ni contraseñas. El mensaje se limitará a notificar la existencia del título de la causa para incentivar la participación comunitaria de forma segura.
